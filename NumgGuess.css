@@ -1,0 +1,81 @@
+body{
+    background-color: #655959;
+    margin: 0 auto;
+    background-image: url(spidey.jpeg);
+    background-size: cover;
+}
+#Game{
+    background-color: hotpink;
+    font-size: 8vh;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-inline-start: 27vw;
+
+}
+
+#head{
+    width: 30vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background-color: aqua;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    display: inline-block;
+    
+}
+#main{
+    background-color: bisque;
+    width: 30vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 3px;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    display: inline-block;
+    height: 50vh;
+}
+
+.RemGuess {
+  color: red;
+  padding: 7px;
+}
+.guesses{
+    color:yellowgreen;
+}
+
+button {
+  color: #000000;
+  font-size: 30px;
+}
+
+#subt {
+  background-color: #4ff56b;
+  color: #212121;
+  width: 25%;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  border-style:double;
+  margin-top: 10px;
+}
+
+#Guess {
+  color: #000;
+  width: 250px;
+  height: 50px;
+  font-size: 30px;
+  border-style: none;
+  margin-top: 5px;
+
+  /* margin-left: 50px; */
+  border: 5px solid #6c6d6d;
+  text-align: center;
+}
+
+#guessLabel{
+  font-size: 55px;
+  /* margin-left: 90px; */
+  margin-top: 120px;
+  color: #212121;
+}

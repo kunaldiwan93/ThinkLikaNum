@@ -1,0 +1,27 @@
+<html>
+<head lang="en">
+    <title>THINK LIKE A NUM</title>
+    <link rel="stylesheet" href="NumgGuess.css">
+</head>
+<body>
+    <div id="Game">Game -THINK LIKE a NUM</div>
+    <div id="head">
+        <h2>Guess the Correct Number between 1-100</h2>
+        <p>You have 10 attempts to guess the right number.</p>
+        <p>Eassyyy Peezzyyy</p>
+    </div>
+    <div id="main">
+        <form id="yourguess">
+            <label for="Guess" id="guessLabel">Guess a Number</label><br>
+            <input type="text" id="Guess" placeholder="Enter your Guess" class="Guess"><br>
+            <input type="submit" value="Submit" id="subt" class="subt">
+        </form>
+        <div class="result">
+            <p >Previous Guesses: <span class="guesses"></span></p>
+            <p >Guesses Remaining: <span class="RemGuess">10</span></p>
+            <p class="msg"></p>
+        </div>
+    </div>
+    <script src="NumGuess.js"></script>
+</body>
+</html>
